@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 @Controller
 @RequestMapping("/ecom")
@@ -21,6 +22,13 @@ public class EcommerceController {
 
     @Autowired
     EcommerceRepository ecommerceRepository;
+
+    @RequestMapping("/getAll")
+    public List<Ecommerce> getAllEcommerce(){
+        List<Ecommerce> ecommerce;
+        ecommerce = ecommerceRepository.findAll();
+        return ecommerce;
+    }
 
 
     @RequestMapping(value = "/add/{pid}") //, method=RequestMethod.POST)
