@@ -23,13 +23,13 @@ public class CentralSellerPortalTest {
     {
         RestTemplate restTemplate = new RestTemplate();
 
-        final String baseUrl = "http://localhost:" + randomServerPort + "/ecomm/getAll";
+        final String baseUrl = "http://localhost:" + randomServerPort + "/ecom/getall";
         URI uri = new URI(baseUrl);
 
         ResponseEntity<String> result = restTemplate.getForEntity(uri, String.class);
-
+        System.out.println(result.getBody());
         //Verify request succeed
         Assert.assertEquals(200, result.getStatusCodeValue());
-        Assert.assertEquals(true, result.getBody().contains("ecommList"));
+        Assert.assertEquals(false, result.getBody().isEmpty());
     }
 }

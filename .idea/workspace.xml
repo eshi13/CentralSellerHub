@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0367d553-5e22-4988-bf65-896be1986670" name="Default Changelist" comment="" />
+    <list default="true" id="0367d553-5e22-4988-bf65-896be1986670" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spe/CentralSellerPortal/Controllers/EcommerceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spe/CentralSellerPortal/Controllers/EcommerceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spe/CentralSellerPortal/CentralSellerPortalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spe/CentralSellerPortal/CentralSellerPortalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spe/CentralSellerPortal/Controllers/EcommerceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spe/CentralSellerPortal/Controllers/EcommerceController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CentralSellerPortalApplication">
+  <component name="RunManager" selected="JUnit.CentralSellerPortalTest">
     <configuration name="CentralSellerPortalApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spe.CentralSellerPortal.CentralSellerPortalApplication" />
       <module name="CentralSellerPortal" />
@@ -96,6 +101,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CentralSellerPortalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CentralSellerPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spe.CentralSellerPortal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spe.CentralSellerPortal" />
+      <option name="MAIN_CLASS_NAME" value="com.spe.CentralSellerPortal.CentralSellerPortalTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,9 +130,11 @@
     <list>
       <item itemvalue="Application.CentralSellerPortalApplication" />
       <item itemvalue="Spring Boot.CentralSellerPortalApplication" />
+      <item itemvalue="JUnit.CentralSellerPortalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CentralSellerPortalTest" />
         <item itemvalue="Application.CentralSellerPortalApplication" />
       </list>
     </recent_temporary>
@@ -148,7 +170,7 @@
       <workItem from="1590089170991" duration="37000" />
       <workItem from="1590089670637" duration="4383000" />
       <workItem from="1590157548879" duration="21000" />
-      <workItem from="1590157793928" duration="1583000" />
+      <workItem from="1590157793928" duration="4894000" />
     </task>
     <task id="LOCAL-00001" summary="product Repository">
       <created>1586042334649</created>
